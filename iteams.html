@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu List</title>
+    <div class="underline mb-5"></div>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+    <link rel="stylesheet" type="text/css" href="css/fonts-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        body {
+            font-size: 15px;
+            line-height: 1.52;
+            color: chocolate;
+            font-family: 'open', sans-serif;
+            font-weight: 400;
+            overflow-x: hidden;
+            background-image: linear-gradient(rgba(12, 155, 126, 0.5), rgba(210, 115, 37, 0.5)), url('C:/Users/venka/Downloads/menubg.jpg');
+    height: 100vh;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Optional, keeps the image fixed while scrolling */
+            background-size:cover;
+        }
+    
+        .background-bubbles {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .bubble {
+        position: absolute;
+        background-color: rgba(234, 121, 8, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+    }
+
+    .bubble.bubble1 {
+        position: absolute;
+        background-color: rgba(18, 188, 186, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 80%;
+        left: 10%;
+    }
+
+    .bubble.bubble2 {
+        position: absolute;
+        background-color: rgba(234, 121, 8, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 80%;
+        left: 25%;
+    }
+
+    .bubble.bubble3 {
+        position: absolute;
+        background-color: rgba(19, 222, 181, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 80%;
+        left:45%;
+    }
+    .bubble.bubble4 {
+        position: absolute;
+        background-color:  rgba(234, 121, 8, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 30px;
+        height: 29px;
+        top: 80%;
+        left: 60%;
+    }  
+     .bubble.bubble5 {
+        position: absolute;
+        background-color:rgba(19, 222, 181, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top:80%;
+        left:80%;
+    }  
+     .bubble.bubble6 {
+        position: absolute;
+        background-color: rgba(234, 121, 8, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 80%;
+        left:90%;
+    }
+    .bubble.bubble7 {
+        position: absolute;
+        background-color: rgba(18, 188, 186, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 20%;
+        left: 10%;
+    }
+
+    .bubble.bubble8 {
+        position: absolute;
+        background-color: rgba(236, 151, 14, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 20%;
+        left: 25%;
+    }
+
+    .bubble.bubble9 {
+        position: absolute;
+        background-color:  rgba(19, 235, 231, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 20%;
+        left:45%;
+    }
+    .bubble.bubble10 {
+        position: absolute;
+        background-color:  rgba(236, 151, 14, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 30px;
+        height: 29px;
+        top: 20%;
+        left: 60%;
+    }  
+     .bubble.bubble11 {
+        position: absolute;
+        background-color:rgba(19, 235, 231, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top:20%;
+        left:80%;
+    }  
+     .bubble.bubble12 {
+        position: absolute;
+        background-color: rgba(240, 146, 31, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 20%;
+        left:90%;
+    }
+   /* .bubble.bubble13 {
+        position: absolute;
+        background-color:  rgba(236, 151, 14, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 30px;
+        height: 29px;
+        top: 50%;
+        left: 40%;
+    }  
+     .bubble.bubble14 {
+        position: absolute;
+        background-color:rgba(19, 235, 231, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top:50%;
+        left:20%;
+    }  
+     .bubble.bubble15 {
+        position: absolute;
+        background-color: rgba(240, 146, 31, 0.6);
+        border-radius: 50%;
+        animation: bubbleAnimation 5s infinite;
+        width: 25px;
+        height: 25px;
+        top: 50%;
+        left:60%;
+    }*/
+
+    /* Customize bubble styles and positions as needed */
+
+    @keyframes bubbleAnimation {
+        0% {
+            transform: translateY(0) scale(1);
+        }
+        50% {
+            transform: translateY(-100%) scale(1.2);
+        }
+        100% {
+            transform: translateY(0) scale(1);
+        }
+    }
+
+
+    .background-image{
+    background-image: url('C:/Users/DELL/Desktop/Restaurant/Menu.html/color.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional, keeps the image fixed while scrolling */
+    background-size: cover;
+
+}
+
+
+        .section-padding {
+            padding: 60px 0px;
+        }
+
+        .marb-37 {
+            text-align: center;
+            font-size: 70px;
+           margin:0%;
+        }
+
+        .header-h {
+            font-size: 70px;
+            color: chocolate;
+            font-family: 'Satisfy', sans-serif;
+            font-weight: 700;
+            margin:0%;
+        }
+
+        .header-p {
+            color: #1ae9db;
+            font-size: 24px;
+           margin-bottom: 3%;
+           /*margin-bottom: 10px;*/
+        }
+
+        ul {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu-flters ul li {
+            display: inline-block;
+            text-transform:calc(20%);
+            letter-spacing: 2px;
+            /*margin-bottom: 40px;*/
+            margin: -20px 50px; 
+        }
+
+        #menu-flters ul li a {
+            padding: 10px 30px;
+            font-size: 19px;
+            color: #fff;;
+            border-radius: 0px;
+            border: 1px solid #BBBBBB;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Add hover transition */
+            margin: 100px 150px; 
+        }
+
+        #menu-flters ul li a.active,
+        #menu-flters ul li a:hover {
+            padding: 11px;
+
+            background: #29c8ba;
+            color: #ffffff;
+            border: 3px solid rgb(225, 110, 27);
+        }
+    .right-side-column {
+        position: absolute;
+        top: 0;
+        right: 0;
+        /*background-color: #f0f0f0;*/
+        padding: 20px;
+    }
+
+    .right-side-column ul {
+        text-align: right;
+        list-style-type: style;;
+        padding: 0;
+    }
+
+    .right-side-column li {
+        display: inline-block;
+        text-transform:calc(50%);
+        letter-spacing:1px;
+        margin: 0 5px;
+    }
+    .right-side-column a{
+        color: #fff;
+
+    }
+
+    .right-side-column a:hover{
+        color: #f1520e;
+          
+    }
+
+
+        .menu-restaurant {
+            width: 50%;
+            float: left;
+            padding: 15px;
+            position: relative;
+        }
+
+        .menu-restaurant .menu-title {
+            float: left;
+            font-family: Montserrat, arial;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #ff5821;
+        }
+
+        .menu-restaurant .menu-line {
+            position: absolute;
+            bottom: 6px;
+            border-bottom: 1px dotted rgba(205, 63, 6, 0.3);
+            margin-left: .6rem;
+            margin-right: .6rem;
+        }
+
+        .menu-restaurant .menu-price {
+            font-weight: 600;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .menu-restaurant .menu-subtitle {
+            display: block;
+            float: left;
+            color: #b1b1b1;
+            font-size: 1.2rem;
+        }
+
+        .menu-restaurant span.clearfix {
+            position: relative;
+            display: block;
+        }
+    .underline {
+    position: fixed;
+    margin-left: 10%; 
+    left: 600px;
+   /* margin:0px;
+    width: 70px;
+    height: 5px;*/
+    background-color: #4eacf0;
+}
+.back-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+a#goBack {
+    display: inline-block;
+    padding: 5px 20px; /* Adjust the padding as needed */
+    background-color: hsl(171, 86%, 45%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+
+a#goBack:hover {
+    background-color: #dd6109;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="background-bubbles">
+    <div class="bubble bubble1"></div>
+    <div class="bubble bubble2"></div>
+    <div class="bubble bubble3"></div>
+    <div class="bubble bubble4"></div>
+    <div class="bubble bubble5"></div>
+    <div class="bubble bubble6"></div>
+    <div class="bubble bubble7"></div>
+    <div class="bubble bubble8"></div>
+    <div class="bubble bubble9"></div>
+    <div class="bubble bubble10"></div>
+    <div class="bubble bubble11"></div>
+    <div class="bubble bubble12"></div>
+    <div class="bubble bubble13"></div>
+    <div class="bubble bubble14"></div>
+    <div class="bubble bubble15"></div>
+    <!-- Add more bubbles as needed -->
+</div>
+<div class="background-image"></div>
+<section id="Menu-List" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center marb-37">
+                <h1 class="header-h">Menu List</h1>
+                <p class="header-p">Savor the flavors of culinary excellence at Sri Sai Srinivasa. Elevate your dining experience with our exquisite menu crafted with passion and precision. From mouthwatering appetizers to decadent desserts, every dish tells a tale of taste and sophistication.</p>
+            </div>
+            <div class="col-md-12 text-center" id="menu-flters">
+                <nav>
+                    <ul>
+                        <li><a href="breakfast.html"><b>Breakfast</b></a></li>
+                        <li><a href="Lunch.html"><b>Lunch</b></a></li>
+                        <li><a href="Dinner.html"><b>Dinner</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="right-side-column">
+    <ul>
+        <li><a href="index.html"><b>HOME</b></a></li>
+        <li><a href="iteams.html"><b>MENU</b></a></li>
+        <li><a href="service.html"><b>SERVICES</b></a></li>
+        <li><a href="About.html"><b>ABOUT</b></a></li>
+        <li><a href="Menu.html"><b>CONTACT</b></a></li>
+    </ul>
+</div>
+<div class="back-button">
+    <a href="Menu.html" id="goBack">Back</a>
+    
+</div>
+<script src="script.js">
+    document.getElementById('goBack').addEventListener('click', function() {
+    window.history.back();
+});
+</script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="contactform/contactform.js"></script>
+</body>
+</html>
