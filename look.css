@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(../back.jpg);
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  header:hover {
+   color: #fff; 
+   background-color: #fff;
+  }
+  h1{
+    text-decoration: underline;
+    color: rgb(246, 72, 3); 
+    font-weight: 300%;
+    font-size: 45px;
+  }
+  h2{
+    color: rgb(246, 72, 3); 
+  }
+  body {
+    font-family: 'ralwway';
+  }
+  
+  .logo img{
+    float: left;
+    height: auto;
+    width: 100px;
+}
+
+.main {
+    max-width: 1800px;
+    margin: auto;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+   
+  }
+  nav .logo img {
+    width: 75px;
+    margin-right: 10px;
+  }
+  
+  .w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.39),rgba(0,0,0,0.39)), url(../back.jpg);
+    flex-wrap: wrap;
+  }
+  
+  .w h1 {
+    font-size: 3em;
+    margin: 25px 0;
+    color: rgb(246, 74, 5);
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-top: 30px;
+  }
+  
+  .box {
+    min-height: 220px;
+    width: calc(60% - 100px); /* Adjusted width for three boxes in a row with some spacing */
+    padding: 70px; /* Reduced padding for a cleaner look */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin:  10px;
+    box-shadow: 10px 15px 30px rgba(0,0,0,0.2);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; /* Added overflow to hide the span outside the box */
+  }
+  
+  .box i {
+    margin: 20px;
+    color: #ff7424;
+  }
+  
+  .box h3 {
+    color: rgb(0, 34, 255);
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .box p {
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  .box:hover i,
+  .box:hover p {
+    color: #fff;
+  }
+  
+  .box:hover h3 {
+    font-weight: 600;
+    color: black;
+  }
+  
+  .box:nth-child(1):hover,
+  .box:nth-child(2):hover,
+  .box:nth-child(3):hover,
+  .box:nth-child(4):hover,
+  .box:nth-child(5):hover,
+  .box:nth-child(6):hover {
+    background: linear-gradient(45deg, rgba(255,28,8,0.7) 0%, rgba(255,0,82,0.8) 100%), url(../imp.jpg);
+    background-size: cover;
+  }
+  
+  span {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid red;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: dotted;
+    transition: 0.6s ease; /* Added a transition for animation */
+  }
+  
+  .box:hover span {
+    opacity: 1; /* Show on hover */
+    background-color: #fff;
+    color: blue;
+  }
