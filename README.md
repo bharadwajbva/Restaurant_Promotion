@@ -1,1 +1,1 @@
-This project is to promote our friend's restaurant 
+This project is to promote our Friend's restaurant 
